@@ -100,6 +100,10 @@
 					</execution>
 				</executions>
 				<configuration>
+					<excludes>
+						<exclude>com/bharghava/javaboilerplate/entity/**</exclude>
+						<exclude>com/bharghava/javaboilerplate/model/**</exclude>
+					</excludes>
 					<systemPropertyVariables>
 						<jacoco-agent.destfile>target/jacoco.exec</jacoco-agent.destfile>
 					</systemPropertyVariables>

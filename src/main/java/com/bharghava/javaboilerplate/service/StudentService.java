@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.bharghava.javaboilerplate.entity.Student;
-import com.bharghava.javaboilerplate.repositories.StudentRepository;
+import com.bharghava.javaboilerplate.repository.StudentRepository;
 
 @Service
 public class StudentService {

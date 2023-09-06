@@ -1,4 +1,4 @@
-package com.bharghava.javaboilerplate.repositories;
+package com.bharghava.javaboilerplate.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import com.bharghava.javaboilerplate.entity.Student;

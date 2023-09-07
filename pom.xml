@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.bharghava</groupId>
 	<artifactId>java-boilerplate</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>2023.9.0-SNAPSHOT</version>
 	<name>java-boilerplate</name>
 	<description>boiler plate app for springboot with h2 and liquibase </description>
 	<properties>

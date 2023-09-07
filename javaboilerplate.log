@@ -1,16 +1,130 @@
-2023-09-07 14:21:19,581 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Starting StudentControllerTest using Java 17.0.2 with PID 99396 (started by mac in /Users/mac/git/java-boilerplate)
-2023-09-07 14:21:19,582 [DEBUG] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Running with Spring Boot v3.1.3, Spring v6.0.11
-2023-09-07 14:21:19,582 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] No active profile set, falling back to 1 default profile: "default"
-2023-09-07 14:21:20,426 [INFO] org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
-2023-09-07 14:21:20,427 [INFO] org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
-2023-09-07 14:21:20,428 [INFO] org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 0 ms
-2023-09-07 14:21:20,442 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Started StudentControllerTest in 1.001 seconds (process running for 1.414)
-2023-09-07 14:21:20,533 [INFO] com.bharghava.javaboilerplate.controller.StudentController [main] add Student api is called
-2023-09-07 14:22:14,054 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Starting StudentControllerTest using Java 17.0.2 with PID 99481 (started by mac in /Users/mac/git/java-boilerplate)
-2023-09-07 14:22:14,054 [DEBUG] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Running with Spring Boot v3.1.3, Spring v6.0.11
-2023-09-07 14:22:14,055 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] No active profile set, falling back to 1 default profile: "default"
-2023-09-07 14:22:15,621 [INFO] org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
-2023-09-07 14:22:15,622 [INFO] org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
-2023-09-07 14:22:15,623 [INFO] org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 1 ms
-2023-09-07 14:22:15,638 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Started StudentControllerTest in 1.727 seconds (process running for 2.127)
-2023-09-07 14:22:15,717 [INFO] com.bharghava.javaboilerplate.controller.StudentController [main] add Student api is called
+2023-09-07 15:53:45,184 [INFO] com.bharghava.javaboilerplate.repository.StudentRepositoryTest [main] Starting StudentRepositoryTest using Java 17.0.2 with PID 8516 (started by mac in /Users/mac/git/java-boilerplate)
+2023-09-07 15:53:45,184 [DEBUG] com.bharghava.javaboilerplate.repository.StudentRepositoryTest [main] Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-09-07 15:53:45,184 [INFO] com.bharghava.javaboilerplate.repository.StudentRepositoryTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-07 15:53:45,318 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-07 15:53:45,337 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 16 ms. Found 1 JPA repository interfaces.
+2023-09-07 15:53:45,360 [INFO] org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor [main] Replacing 'dataSource' DataSource bean with embedded version
+2023-09-07 15:53:45,435 [INFO] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory [main] Starting embedded database: url='jdbc:h2:mem:2e774b07-eb88-464c-bf06-8bd73109a7b1;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-09-07 15:53:45,556 [INFO] liquibase.database [main] Set default schema name to PUBLIC
+2023-09-07 15:53:45,967 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 15:53:45,969 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 15:53:45,972 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 15:53:45,973 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 15:53:45,976 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 15:53:45,976 [INFO] liquibase.lockservice [main] Successfully acquired change log lock
+2023-09-07 15:53:45,982 [INFO] liquibase.changelog [main] Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2023-09-07 15:53:45,984 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 15:53:45,985 [INFO] liquibase.changelog [main] Reading from PUBLIC.DATABASECHANGELOG
+2023-09-07 15:53:45,986 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 15:53:45,987 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 15:53:46,006 [INFO] liquibase.changelog [main] Table student created
+2023-09-07 15:53:46,007 [INFO] liquibase.changelog [main] ChangeSet db/changelog/changelog-master.xml::STUDENT_TABLE::bharghava ran successfully in 2ms
+2023-09-07 15:53:46,009 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 15:53:46,009 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 15:53:46,010 [INFO] liquibase [main] Update command completed successfully.
+2023-09-07 15:53:46,011 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 15:53:46,011 [INFO] liquibase.lockservice [main] Successfully released change log lock
+2023-09-07 15:53:46,040 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-07 15:53:46,059 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-07 15:53:46,060 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-09-07 15:53:46,107 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-09-07 15:53:46,155 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-07 15:53:46,224 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-09-07 15:53:46,461 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-07 15:53:46,463 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-07 15:53:46,598 [INFO] com.bharghava.javaboilerplate.repository.StudentRepositoryTest [main] Started StudentRepositoryTest in 1.543 seconds (process running for 1.962)
+2023-09-07 15:53:46,909 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-07 16:00:55,743 [INFO] com.bharghava.javaboilerplate.repository.StudentRepositoryTest [main] Starting StudentRepositoryTest using Java 17.0.2 with PID 9208 (started by mac in /Users/mac/git/java-boilerplate)
+2023-09-07 16:00:55,744 [DEBUG] com.bharghava.javaboilerplate.repository.StudentRepositoryTest [main] Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-09-07 16:00:55,744 [INFO] com.bharghava.javaboilerplate.repository.StudentRepositoryTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-07 16:00:56,318 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-07 16:00:56,367 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+2023-09-07 16:00:56,430 [INFO] org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor [main] Replacing 'dataSource' DataSource bean with embedded version
+2023-09-07 16:00:56,597 [INFO] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory [main] Starting embedded database: url='jdbc:h2:mem:5d59b076-2c24-495d-8797-16e12c7784f1;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-09-07 16:00:56,877 [INFO] liquibase.database [main] Set default schema name to PUBLIC
+2023-09-07 16:00:57,197 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:00:57,199 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:00:57,203 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:00:57,205 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:00:57,208 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:00:57,208 [INFO] liquibase.lockservice [main] Successfully acquired change log lock
+2023-09-07 16:00:57,219 [INFO] liquibase.changelog [main] Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2023-09-07 16:00:57,221 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:00:57,222 [INFO] liquibase.changelog [main] Reading from PUBLIC.DATABASECHANGELOG
+2023-09-07 16:00:57,223 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:00:57,224 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:00:57,256 [INFO] liquibase.changelog [main] Table student created
+2023-09-07 16:00:57,257 [INFO] liquibase.changelog [main] ChangeSet db/changelog/changelog-master.xml::STUDENT_TABLE::bharghava ran successfully in 2ms
+2023-09-07 16:00:57,260 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:00:57,261 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:00:57,262 [INFO] liquibase [main] Update command completed successfully.
+2023-09-07 16:00:57,263 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:00:57,263 [INFO] liquibase.lockservice [main] Successfully released change log lock
+2023-09-07 16:00:57,311 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-07 16:00:57,350 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-07 16:00:57,352 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-09-07 16:00:57,445 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-09-07 16:00:57,541 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-07 16:00:57,694 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-09-07 16:00:58,128 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-07 16:00:58,129 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-07 16:00:58,304 [INFO] com.bharghava.javaboilerplate.repository.StudentRepositoryTest [main] Started StudentRepositoryTest in 3.116 seconds (process running for 3.998)
+2023-09-07 16:00:58,689 [INFO] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.bharghava.javaboilerplate.controller.StudentControllerTest]: StudentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-09-07 16:00:58,697 [INFO] org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.bharghava.javaboilerplate.JavaBoilerplateApplication for test class com.bharghava.javaboilerplate.controller.StudentControllerTest
+2023-09-07 16:00:58,717 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Starting StudentControllerTest using Java 17.0.2 with PID 9208 (started by mac in /Users/mac/git/java-boilerplate)
+2023-09-07 16:00:58,717 [DEBUG] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-09-07 16:00:58,717 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-07 16:00:59,391 [INFO] org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-09-07 16:00:59,391 [INFO] org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-09-07 16:00:59,392 [INFO] org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 1 ms
+2023-09-07 16:00:59,404 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Started StudentControllerTest in 0.701 seconds (process running for 5.099)
+2023-09-07 16:00:59,600 [INFO] com.bharghava.javaboilerplate.controller.StudentController [main] add Student api is called
+2023-09-07 16:00:59,687 [INFO] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.bharghava.javaboilerplate.JavaBoilerplateApplicationTests]: JavaBoilerplateApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-09-07 16:00:59,804 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-09-07 16:01:38,114 [INFO] com.bharghava.javaboilerplate.repository.StudentRepositoryTest [main] Starting StudentRepositoryTest using Java 17.0.2 with PID 9360 (started by mac in /Users/mac/git/java-boilerplate)
+2023-09-07 16:01:38,116 [DEBUG] com.bharghava.javaboilerplate.repository.StudentRepositoryTest [main] Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-09-07 16:01:38,116 [INFO] com.bharghava.javaboilerplate.repository.StudentRepositoryTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-07 16:01:38,645 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-09-07 16:01:38,684 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2023-09-07 16:01:38,731 [INFO] org.springframework.boot.test.autoconfigure.jdbc.TestDatabaseAutoConfiguration$EmbeddedDataSourceBeanFactoryPostProcessor [main] Replacing 'dataSource' DataSource bean with embedded version
+2023-09-07 16:01:38,888 [INFO] org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseFactory [main] Starting embedded database: url='jdbc:h2:mem:f4c3d6d1-24ef-4440-a151-cf8a83268bf4;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2023-09-07 16:01:39,179 [INFO] liquibase.database [main] Set default schema name to PUBLIC
+2023-09-07 16:01:39,434 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:01:39,436 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:01:39,440 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:01:39,442 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:01:39,444 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:01:39,445 [INFO] liquibase.lockservice [main] Successfully acquired change log lock
+2023-09-07 16:01:39,454 [INFO] liquibase.changelog [main] Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2023-09-07 16:01:39,457 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:01:39,457 [INFO] liquibase.changelog [main] Reading from PUBLIC.DATABASECHANGELOG
+2023-09-07 16:01:39,458 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:01:39,459 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:01:39,491 [INFO] liquibase.changelog [main] Table student created
+2023-09-07 16:01:39,491 [INFO] liquibase.changelog [main] ChangeSet db/changelog/changelog-master.xml::STUDENT_TABLE::bharghava ran successfully in 2ms
+2023-09-07 16:01:39,493 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:01:39,494 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:01:39,495 [INFO] liquibase [main] Update command completed successfully.
+2023-09-07 16:01:39,496 [INFO] liquibase.executor [main] Changelog query completed.
+2023-09-07 16:01:39,496 [INFO] liquibase.lockservice [main] Successfully released change log lock
+2023-09-07 16:01:39,540 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-09-07 16:01:39,576 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.7.Final
+2023-09-07 16:01:39,578 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-09-07 16:01:39,664 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-09-07 16:01:39,750 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-09-07 16:01:39,914 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-09-07 16:01:40,330 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-09-07 16:01:40,332 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-09-07 16:01:40,515 [INFO] com.bharghava.javaboilerplate.repository.StudentRepositoryTest [main] Started StudentRepositoryTest in 2.972 seconds (process running for 3.682)
+2023-09-07 16:01:40,913 [INFO] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.bharghava.javaboilerplate.controller.StudentControllerTest]: StudentControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-09-07 16:01:40,920 [INFO] org.springframework.boot.test.context.SpringBootTestContextBootstrapper [main] Found @SpringBootConfiguration com.bharghava.javaboilerplate.JavaBoilerplateApplication for test class com.bharghava.javaboilerplate.controller.StudentControllerTest
+2023-09-07 16:01:40,941 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Starting StudentControllerTest using Java 17.0.2 with PID 9360 (started by mac in /Users/mac/git/java-boilerplate)
+2023-09-07 16:01:40,941 [DEBUG] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-09-07 16:01:40,941 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-07 16:01:41,662 [INFO] org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-09-07 16:01:41,662 [INFO] org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-09-07 16:01:41,664 [INFO] org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 2 ms
+2023-09-07 16:01:41,679 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Started StudentControllerTest in 0.752 seconds (process running for 4.846)
+2023-09-07 16:01:41,896 [INFO] com.bharghava.javaboilerplate.controller.StudentController [main] add Student api is called
+2023-09-07 16:01:41,990 [INFO] org.springframework.test.context.support.AnnotationConfigContextLoaderUtils [main] Could not detect default configuration classes for test class [com.bharghava.javaboilerplate.JavaBoilerplateApplicationTests]: JavaBoilerplateApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2023-09-07 16:01:42,120 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'

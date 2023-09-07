@@ -1,0 +1,16 @@
+2023-09-07 14:21:19,581 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Starting StudentControllerTest using Java 17.0.2 with PID 99396 (started by mac in /Users/mac/git/java-boilerplate)
+2023-09-07 14:21:19,582 [DEBUG] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-09-07 14:21:19,582 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-07 14:21:20,426 [INFO] org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-09-07 14:21:20,427 [INFO] org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-09-07 14:21:20,428 [INFO] org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 0 ms
+2023-09-07 14:21:20,442 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Started StudentControllerTest in 1.001 seconds (process running for 1.414)
+2023-09-07 14:21:20,533 [INFO] com.bharghava.javaboilerplate.controller.StudentController [main] add Student api is called
+2023-09-07 14:22:14,054 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Starting StudentControllerTest using Java 17.0.2 with PID 99481 (started by mac in /Users/mac/git/java-boilerplate)
+2023-09-07 14:22:14,054 [DEBUG] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Running with Spring Boot v3.1.3, Spring v6.0.11
+2023-09-07 14:22:14,055 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] No active profile set, falling back to 1 default profile: "default"
+2023-09-07 14:22:15,621 [INFO] org.springframework.boot.test.mock.web.SpringBootMockServletContext [main] Initializing Spring TestDispatcherServlet ''
+2023-09-07 14:22:15,622 [INFO] org.springframework.test.web.servlet.TestDispatcherServlet [main] Initializing Servlet ''
+2023-09-07 14:22:15,623 [INFO] org.springframework.test.web.servlet.TestDispatcherServlet [main] Completed initialization in 1 ms
+2023-09-07 14:22:15,638 [INFO] com.bharghava.javaboilerplate.controller.StudentControllerTest [main] Started StudentControllerTest in 1.727 seconds (process running for 2.127)
+2023-09-07 14:22:15,717 [INFO] com.bharghava.javaboilerplate.controller.StudentController [main] add Student api is called

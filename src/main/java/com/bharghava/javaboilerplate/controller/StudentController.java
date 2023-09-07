@@ -41,6 +41,6 @@ public class StudentController {
     public ResponseEntity<ResponseData> addStudent(@RequestBody Student student){
         log.info("add Student api is called");
         return new ResponseEntity<ResponseData>(
-            new ResponseData(studentService.addStudent(student)), null, 200);
+            new ResponseData(studentService.addStudent(student)), null, 201);
     }
 }
